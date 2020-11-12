@@ -5,7 +5,6 @@
 # base image: Ubuntu
 FROM ubuntu:16.04
 
-
 RUN apt-get update --fix-missing \
     && apt-get install -y wget gcc make \
     && cd /usr/local/ \
@@ -25,14 +24,4 @@ RUN apt-get update --fix-missing \
 
 COPY . .
 
-
 ENTRYPOINT ["bash", "mafft_run.sh"]
-
-#CMD mafft gisaid_5_seqs.fasta > out.fasta
-#ENTRYPOINT ["mafft", "gisaid_5_seqs.fasta"]
-#ENTRYPOINT ["/usr/local/bin/mafft --maxiterate 1000 --globalpair --thread 5 gisaid_5_seqs.fasta > out.fasta"]
-
-
-
-
-
