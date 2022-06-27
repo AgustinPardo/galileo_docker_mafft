@@ -8,11 +8,7 @@ Visit: https://hypernetlabs.io/galileo/tutorials/tutorial-mafft/
 This example is going to execute a software called MAFFT ([https://mafft.cbrc.jp/alignment/software/](https://mafft.cbrc.jp/alignment/software/)). This program create a multiple sequence alignments (MSA) ([https://www.bioinformatics.org/wiki/Multiple_sequence_alignment](https://www.bioinformatics.org/wiki/Multiple_sequence_alignment)) of nucleotides or protein sequences (genomes), that is align all the sequences together and see how they differ:
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.png "image_tooltip")
+![alt_text](aligment.png "image_tooltip")
 
 
 _Multiple sequence alignment of 18 protein sequences. The color represents each amino acid. You can visualize which sequences have the same and different amino acids for each sequence. Clarification: MAFFT cannot visualize the alignment._
@@ -23,11 +19,7 @@ _Multiple sequence alignment of 18 protein sequences. The color represents each 
 I our example folder we have 3 files:
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
+![alt_text](files.png "image_tooltip")
 
 
 We are going to describe each file deeply in the next section.
